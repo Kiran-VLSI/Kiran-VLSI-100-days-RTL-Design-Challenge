@@ -1,1 +1,47 @@
+In VLSI (Very Large Scale Integration), an inverter is one of the most fundamental logic gates. It performs a logical NOT operation, meaning it inverts the input signal. If the input is `1`, the output is `0`, and vice versa
+
+Key Points About Inverters in VLSI
+1. Symbol and Truth Table:
+   - Symbol: A triangle with a small circle at its tip.
+   - Truth Table:
+     | Input | Output |
+     |-------|--------|
+     |   0   |   1    |
+     |   1   |   0    |
+
+2. Construction in CMOS Technology:
+   - A CMOS inverter consists of:
+     - **PMOS transistor**: Pulls the output high (to logic `1`) when the input is `0`.
+     - **NMOS transistor**: Pulls the output low (to logic `0`) when the input is `1`.
+   - The complementary nature of PMOS and NMOS transistors ensures low power dissipation during steady states.
+
+3. Applications:
+   - Used in building other complex digital circuits (AND, OR, Flip-Flops, etc.).
+   - Acts as a buffer with logic inversion.
+   - Essential in delay circuits, clock networks, and signal restoration.
+
+4. Design Metrics:
+   - Propagation Delay: Time taken for the signal to propagate through the inverter.
+   - Power Consumption: Includes dynamic (switching) and static (leakage) power.
+   - Noise Margins: Determines the inverter's ability to reject noise in the input signal.
+
+5. Layout in VLSI:
+   - The inverter's physical design involves arranging PMOS and NMOS transistors, with metal interconnects to define the input, output, power (`Vdd`), and ground (`Gnd`) lines.
+   - Optimized for area and performance in integrated circuits.
+
+
+CMOS Inverter Circuit
+The schematic of a CMOS inverter is simple:
+- Input (A) is connected to the gates of both PMOS and NMOS transistors.
+- The source of the PMOS is connected to `Vdd`, and the source of the NMOS is connected to `Gnd`.
+- The drains of both transistors are connected together to form the output (Y).
+
+Operation
+1. Input = 0:
+   - PMOS turns ON, NMOS turns OFF.
+   - Output is pulled to `Vdd` (logic `1`).
+
+2.Input = 1:
+   - PMOS turns OFF, NMOS turns ON.
+   - Output is pulled to `Gnd` (logic `0`).
 
