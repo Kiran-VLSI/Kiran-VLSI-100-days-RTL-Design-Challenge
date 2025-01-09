@@ -1,6 +1,6 @@
-In VLSI (Very Large Scale Integration), an inverter is one of the most fundamental logic gates. It performs a logical NOT operation, meaning it inverts the input signal. If the input is `1`, the output is `0`, and vice versa
+In VLSI (Very Large Scale Integration), an inverter is one of the most fundamental logic gates. It performs a logical NOT operation, meaning it inverts the input signal. If the input is `1`, the output is `0`, and vice versa.
 
-Key Points About Inverters in VLSI
+Key Points About Inverters in VLSI✅
 1. Symbol and Truth Table:
    - Symbol: A triangle with a small circle at its tip.
    - Truth Table:
@@ -11,8 +11,8 @@ Key Points About Inverters in VLSI
 
 2. Construction in CMOS Technology:
    - A CMOS inverter consists of:
-     - **PMOS transistor**: Pulls the output high (to logic `1`) when the input is `0`.
-     - **NMOS transistor**: Pulls the output low (to logic `0`) when the input is `1`.
+     - PMOS transistor: Pulls the output high (to logic `1`) when the input is `0`.
+     - NMOS transistor: Pulls the output low (to logic `0`) when the input is `1`.
    - The complementary nature of PMOS and NMOS transistors ensures low power dissipation during steady states.
 
 3. Applications:
@@ -30,13 +30,13 @@ Key Points About Inverters in VLSI
    - Optimized for area and performance in integrated circuits.
 
 
-CMOS Inverter Circuit
+CMOS Inverter Circuit✅
 The schematic of a CMOS inverter is simple:
 - Input (A) is connected to the gates of both PMOS and NMOS transistors.
 - The source of the PMOS is connected to `Vdd`, and the source of the NMOS is connected to `Gnd`.
 - The drains of both transistors are connected together to form the output (Y).
 
-Operation
+Operation✅
 1. Input = 0:
    - PMOS turns ON, NMOS turns OFF.
    - Output is pulled to `Vdd` (logic `1`).
