@@ -1,4 +1,4 @@
-# 100 RTL Design Challenge 🚀🎛️
+# 100 Days RTL Design Challenge 🚀🎛️
 
 Welcome to the **100 RTL Design Challenge** — a journey to master RTL (Register Transfer Level) design by coding and verifying a new RTL module **every day for 100 days**!
 
@@ -72,7 +72,7 @@ Contributions and feedback are welcome! Feel free to open issues or pull request
 ## Contact
 
 Made with ❤️ by Chandrakiran G  
-[Your LinkedIn](www.linkedin.com/in/chandrakiran-g-409816257) 
+[Your LinkedIn](https://www.linkedin.com/in/chandrakiran-g-409816257/) 
 
 ---
 
