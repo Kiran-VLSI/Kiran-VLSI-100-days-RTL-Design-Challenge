@@ -72,7 +72,7 @@ Contributions and feedback are welcome! Feel free to open issues or pull request
 ## Contact
 
 Made with ❤️ by Chandrakiran G  
-[Your LinkedIn](https://www.linkedin.com/in/chandrakiran-g-409816257/) 
+[My LinkedIn](https://www.linkedin.com/in/chandrakiran-g-409816257/) 
 
 ---
 
